@@ -1,0 +1,12 @@
+# directories
+**/bin/
+**/obj/
+**/out/
+**/.git/
+
+# files
+Dockerfile*
+docker-compose*
+**/*.md
+.env
+.gitignore
