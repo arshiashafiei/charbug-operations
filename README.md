@@ -1,10 +1,12 @@
 # Deployment files for Charbug contest
 
 In this repository, resides the necessary files, scripts, and other configs that we used for deploying domjudge and the signup website for the first Charbug programming contest held in 5th and 6th of December, 2024 at University of Isfahan.
+
 By the good people at [UI-ACM student community](https://t.me/ui_acm).
+
 For further information visit the contest [Telegram channel](https://t.me/CharBug).
 
-If by any chance you find any bugs or problems in this repository, we would be happy to get your feedback, it might be useful for the next people that are going to hold this kind of contests. So make sure to create a pull request or an issue.
+If by any chance you find any bugs or problems in this repository, we would be happy to get your feedback, it might be useful for the next people that are going to hold this kind of contests. So feel free to create a pull request or an issue.
 
 ## Useful Commands
 
@@ -51,4 +53,4 @@ mariadb -u root -p < alldump.sql
 <https://andrewlock.net/exploring-the-dotnet-8-preview-updates-to-docker-images-in-dotnet-8/>
 
 if you think there are a lot of things wrong with this repository that's because it is.
-but from a "if it runs don't touch it" standpoint, well, it runs. And it runs just fine. :)
+but from a "if it runs don't touch it" standpoint, well, it runs. And it runs just fine. I was lazy and didn't had time to abide by every best practice. :)
