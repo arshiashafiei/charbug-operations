@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 MSSQL_PASS="Pass"
 sudo docker exec -u root mssql /opt/mssql-tools18/bin/sqlcmd -S localhost -d uicpc -No -Q "select * from Teams" -o /opt/teams.csv  -s"," -C -U sa -P $MSSQL_PASS
 sudo docker exec -u root mssql /opt/mssql-tools18/bin/sqlcmd -S localhost -d uicpc -No -Q "select * from Users" -o /opt/users.csv  -s"," -C -U sa -P $MSSQL_PASS

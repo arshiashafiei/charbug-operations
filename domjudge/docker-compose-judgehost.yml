@@ -1,0 +1,51 @@
+x-judgedaemon-common-configuration: &judgedaemon-common-configuration
+  image: domjudge/judgehost:8.3.1
+  restart: always
+  volumes:
+    - /sys/fs/cgroup:/sys/fs/cgroup
+  privileged: true
+  env_file:
+    - judgehost.env
+
+services:
+  judgedaemon1:
+    <<: *judgedaemon-common-configuration
+    hostname: judgedaemon-0
+    container_name: judgedaemon-0
+    environment:
+      DAEMON_ID: 0
+
+  judgedaemon2:
+    <<: *judgedaemon-common-configuration
+    hostname: judgedaemon-1
+    container_name: judgedaemon-1
+    environment:
+      DAEMON_ID: 1
+
+  judgedaemon3:
+    <<: *judgedaemon-common-configuration
+    hostname: judgedaemon-2
+    container_name: judgedaemon-2
+    environment:
+      DAEMON_ID: 2
+
+  judgedaemon4:
+    <<: *judgedaemon-common-configuration
+    hostname: judgedaemon-3
+    container_name: judgedaemon-3
+    environment:
+      DAEMON_ID: 3
+
+  judgedaemon5:
+    <<: *judgedaemon-common-configuration
+    hostname: judgedaemon-4
+    container_name: judgedaemon-4
+    environment:
+      DAEMON_ID: 4
+
+  judgedaemon6:
+    <<: *judgedaemon-common-configuration
+    hostname: judgedaemon-5
+    container_name: judgedaemon-5
+    environment:
+      DAEMON_ID: 5
