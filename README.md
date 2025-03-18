@@ -8,6 +8,10 @@ For further information visit the contest [Telegram channel](https://t.me/CharBu
 
 If by any chance you find any bugs or problems in this repository, we would be happy to get your feedback, it might be useful for the next people that are going to hold this kind of contests. So feel free to create a pull request or an issue.
 
+## Special Thanks to
+
+- Saeed Abadian @saeed0920
+- Zahra Masoumi @asAlwaysZahra
 ## Useful Commands
 
 **backup and download users uploaded files:**
