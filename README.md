@@ -10,8 +10,8 @@ If by any chance you find any bugs or problems in this repository, we would be h
 
 ## Special Thanks to
 
-- Saeed Abadian @saeed0920
-- Zahra Masoumi @asAlwaysZahra
+- Saeed Abadian [@saeed0920](https://github.com/saeed0920)
+- Zahra Masoumi [@asAlwaysZahra](https://github.com/asAlwaysZahra)
 ## Useful Commands
 
 **backup and download users uploaded files:**
