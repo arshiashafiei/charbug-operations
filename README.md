@@ -1,17 +1,19 @@
-# Deployment files for Charbug contest
+# Charbug Contest Deployment Files
 
-In this repository, resides the necessary files, scripts, and other configs that we used for deploying domjudge and the signup website for the first Charbug programming contest held in 5th and 6th of December, 2024 at University of Isfahan.
+This repository contains the deployment files, scripts, and configurations used to set up **DOMjudge** and the **main website** for the **first Charbug programming contest**, held on **December 5–6, 2024**, at the **University of Isfahan**.
 
-By the good people at [UI-ACM student community](https://t.me/ui_acm).
+By the good people at [UI-ACM Student Community](https://t.me/ui_acm).
 
-For further information visit the contest [Telegram channel](https://t.me/CharBug).
+For updates and announcements, check out the contest [Telegram channel](https://t.me/CharBug).
 
-If by any chance you find any bugs or problems in this repository, we would be happy to get your feedback, it might be useful for the next people that are going to hold this kind of contests. So feel free to create a pull request or an issue.
+If by any chance you find bugs or issues, feel free to open a pull request or issue — your feedback helps future organizers.
 
 ## Special Thanks to
 
-- Saeed Abadian [@saeed0920](https://github.com/saeed0920)
-- Zahra Masoumi [@asAlwaysZahra](https://github.com/asAlwaysZahra)
+- **Saeed Abadian** [@saeed0920](https://github.com/saeed0920) who only came to the event cause of his genuine passion 
+- **Zahra Masoumi** [@asAlwaysZahra](https://github.com/asAlwaysZahra) who was like a one-person dev team all by herself
+- **Soroush Nekoozadeh** [@Soroushnk](https://github.com/Soroushnk) who really liked intense situations and was really trying to find a cheater in the event, which he did
+
 ## Useful Commands
 
 **backup and download users uploaded files:**
@@ -50,11 +52,10 @@ rsync -Pa arshia@171.22.24.41:/home/arshia/alldb2.sql .
 mariadb -u root -p < alldump.sql
 ```
 
-**Useful links that were useful during the deployment process:**
+## 📚 Resources We Found Helpful
 
-<https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer?view=aspnetcore-8.0>
-
-<https://andrewlock.net/exploring-the-dotnet-8-preview-updates-to-docker-images-in-dotnet-8/>
+- [ASP.NET Core Deployment Behind a Proxy](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer?view=aspnetcore-8.0)
+- [Docker Changes in .NET 8](https://andrewlock.net/exploring-the-dotnet-8-preview-updates-to-docker-images-in-dotnet-8/)
 
 if you think there are a lot of things wrong with this repository that's because it is.
-but from a "if it runs don't touch it" standpoint, well, it runs. And it runs just fine. I was lazy and didn't had time to abide by every best practice. :)
+but from a "if it runs don't touch it" standpoint, well, it runs. And it runs just fine. I was lazy and didn't have time to abide by every best practice. :)
