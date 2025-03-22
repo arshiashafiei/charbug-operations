@@ -10,9 +10,9 @@ If by any chance you find bugs or issues, feel free to open a pull request or is
 
 ## Special Thanks to
 
-- **Saeed Abadian** [@saeed0920](https://github.com/saeed0920) who only came to the event cause of his genuine passion 
-- **Zahra Masoumi** [@asAlwaysZahra](https://github.com/asAlwaysZahra) who was like a one-person dev team all by herself
-- **Soroush Nekoozadeh** [@Soroushnk](https://github.com/Soroushnk) who really liked intense situations and was really trying to find a cheater in the event, which he did
+- **Saeed Abadian** [@saeed0920](https://github.com/saeed0920) (who only came to the event cause of his genuine passion.)
+- **Zahra Masoumi** [@asAlwaysZahra](https://github.com/asAlwaysZahra) (who was like a one-person dev team all by herself.)
+- **Soroush Nekoozadeh** [@Soroushnk](https://github.com/Soroushnk) (who really liked intense situations and was really trying to find a cheater in the event, which he did.)
 
 ## Useful Commands
 
